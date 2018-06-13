@@ -1,0 +1,87 @@
+.magazine {
+  width: 95vw;
+  height: 90vh;
+  outline: 6px solid #121219;
+  display: grid;
+  grid-template-rows: 130px 2fr 1fr;
+  grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
+}
+
+.title {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  border: 10px solid orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: orangered;
+  font-size: 4rem;
+  z-index: 2;
+}
+
+.image {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  border: 10px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+  font-size: 4rem;
+}
+
+.score {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 4;
+  grid-row-end: 5;
+  border: 10px solid yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: yellow;
+  font-size: 4rem;
+}
+
+.content1 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  border: 10px solid greenyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: greenyellow;
+  font-size: 4rem;
+}
+
+.content2 {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  border: 10px solid greenyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: greenyellow;
+  font-size: 4rem;
+}
+
+.quote {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  border: 10px solid teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: teal;
+  font-size: 4rem;
+}
